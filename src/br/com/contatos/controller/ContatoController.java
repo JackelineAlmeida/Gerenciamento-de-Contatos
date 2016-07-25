@@ -83,6 +83,9 @@ public class ContatoController implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		// TODO Auto-generated method stub
 
+		//metodo para preencher a lista
+
+
 		preencherLista();
 
 	}
