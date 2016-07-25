@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.com.contatos.controller.ContatoController">
+   <children>
+      <Label layoutX="117.0" layoutY="24.0" text="Contatos">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="129.0" layoutY="89.0" promptText="Nome" />
+      <TextField layoutX="129.0" layoutY="142.0" promptText="Telefone" />
+      <Label layoutX="20.0" layoutY="93.0" text="Nome" />
+      <Label layoutX="20.0" layoutY="146.0" text="Telefone" />
+      <Button layoutX="234.0" layoutY="188.0" mnemonicParsing="false" text="Inserir" />
+   </children>
+</AnchorPane>
